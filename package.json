@@ -1,0 +1,22 @@
+{
+  "name": "locked-in-devs",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.9.0",
+    "@discordjs/rest": "^2.4.0",
+    "discord-api-types": "^0.37.101",
+    "discord.js": "^14.16.3"
+  }
+}
