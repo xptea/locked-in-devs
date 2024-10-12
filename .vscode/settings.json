@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".vscode": true,
+        "node_modules": true,
+        ".env": true,
+        ".gitignore": true,
+        "bun.lockb": true,
+        "package.json": true,
+        "README.md": true,
+        "tsconfig.json": true
+    },
+    "hide-files.files": [
+        ".vscode",
+        "node_modules",
+        ".env",
+        ".gitignore",
+        "bun.lockb",
+        "package.json",
+        "README.md",
+        "tsconfig.json"
+    ]
+}
